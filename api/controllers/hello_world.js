@@ -20,7 +20,7 @@ var util = require('util');
 
  Either:
   - The HTTP Verb of the corresponding operation (get, put, post, delete, etc)
-  - Or the operationId associated with the operation in your Swagger document
+  - Or the operationId associated with the operation in your Swagger document.
 
   In the starter/skeleton project the 'get' operation on the '/hello' path has an operationId named 'hello'.  Here,
   we specify that in the exports of this module that 'hello' maps to the function named 'hello'
